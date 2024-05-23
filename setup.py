@@ -34,15 +34,15 @@ def get_value_from_package_info(line, value, old_value):
     return None
 
 
-PACKAGE_NAME = "pygenesis"
+PACKAGE_NAME = "pygenesis-django"
 
 PROJECT_URLS = {
-    'Documentation': 'https://pygenesis.libresource.info',
-    'Source': 'https://github.com/libresource/pygenesis',
-    'Tracker': 'https://github.com/libresource/pygenesis/issues',
-    'Release notes': 'https://github.com/libresource/pygenesis/releases',
-    'Changelog': 'https://github.com/libresource/pygenesis/releases',
-    'Download': 'https://pypi.org/project/pygenesis/',
+    'Documentation': 'https://pygenesis-django.libresource.info',
+    'Source': 'https://github.com/libresource/pygenesis-django',
+    'Tracker': 'https://github.com/libresource/pygenesis-django/issues',
+    'Release notes': 'https://github.com/libresource/pygenesis-django/releases',
+    'Changelog': 'https://github.com/libresource/pygenesis-django/releases',
+    'Download': 'https://pypi.org/project/pygenesis-django/',
 }
 
 with open_local([PACKAGE_NAME, "package.py"]) as fp:
@@ -74,15 +74,15 @@ setup(
 
     include_package_data=True,
     license="MIT",
-    description="Python package repository template",
+    description="Python Django package repository template",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    url="https://github.com/libresource/pygenesis",
+    url="https://github.com/libresource/pygenesis-django",
     author="quillcraftsman",
     author_email="quill@craftsman.lol",
-    keywords=["python", "package", "template-repository"],
+    keywords=["python", "django", "package", "template-repository"],
     # install_requires=[
-    #     'Django==4.2.6',
+    #     'Django==5.0.6',
     # ],
     python_requires=">=3",
     classifiers=[
@@ -90,11 +90,12 @@ setup(
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        'Environment :: Console',
+        'Environment :: Web Environment',
+        'Framework :: Django',
         "Operating System :: OS Independent",
         "Topic :: Software Development",
         "Topic :: Software Development :: Libraries",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    project_urls= PROJECT_URLS,
+    project_urls=PROJECT_URLS,
 )

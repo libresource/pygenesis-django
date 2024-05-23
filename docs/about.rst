@@ -1,9 +1,9 @@
-PyGenesis
+PyGenesis Django
 ================
 
-Python package repository template
+Python Django package repository template
 
-Project on `GitHub <https://github.com/libresource/pygenesis>`_
+Project on `GitHub <https://github.com/libresource/pygenesis-django>`_
 
 - :ref:`Mission`
 - :ref:`Open Source Project`
@@ -14,24 +14,24 @@ Project on `GitHub <https://github.com/libresource/pygenesis>`_
 Mission
 -------
 
-PyGenesis is a comprehensive Python package template designed to kickstart your projects instantly.
+PyGenesis is a comprehensive Python Django package template designed to kickstart your projects instantly.
 With a clean and organized structure, it provides a hassle-free starting point for developers.
-Effortlessly begin your Python endeavors, focusing on your code, not the setup. Jumpstart your creativity with PyGenesis.
+Effortlessly begin your Python endeavors, focusing on your code, not the setup. Jumpstart your creativity with PyGenesis Django.
 
 Open Source Project
 -------------------
 
-This is the open source project with `MIT license <https://github.com/libresource/pygenesis/blob/main/LICENSE>`_.
+This is the open source project with `MIT license <https://github.com/libresource/pygenesis-django/blob/main/LICENSE>`_.
 Be free to use, fork, clone and contribute.
 
 Features
 --------
 
 - This README (Change it for your python project)
-- This template base on `libresource/open-source-checklist <https://github.com/libresource/open-source-checklist>`_.
-It contains may useful files for open source project: (`CHECKLIST.md <https://github.com/libresource/pygenesis/blob/main/CHECKLIST.md>`_,
-`CONTGIBUTING.md <https://github.com/libresource/pygenesis/blob/main/CONTRIBUTING.md>`_,
-`CODE_OF_CONDUCT.md <https://github.com/libresource/pygenesis/blob/main/CODE_OF_CONDUCT.md>`_, and much more).
+- This template base on `libresource/pygenesis <https://github.com/libresource/pygenesis>`_.
+It contains may useful files for open source project: (`CHECKLIST.md <https://github.com/libresource/pygenesis-django/blob/main/CHECKLIST.md>`_,
+`CONTGIBUTING.md <https://github.com/libresource/pygenesis-django/blob/main/CONTRIBUTING.md>`_,
+`CODE_OF_CONDUCT.md <https://github.com/libresource/pygenesis-django/blob/main/CODE_OF_CONDUCT.md>`_, and much more).
 
 - `setup.py` for build your package
 - `requirements.txt` and `dev-requirements.txt`
@@ -47,7 +47,6 @@ It contains may useful files for open source project: (`CHECKLIST.md <https://gi
 - - run tests with coverage
 - - run linter
 - - publish your package in PyPi
-- - greetings for new contributors
 
 Requirements
 ------------
@@ -63,4 +62,4 @@ Development Status
 
 - |development_status|
 
-`Project on PyPi <https://pypi.org/project/pygenesis>`_
+`Project on PyPi <https://pypi.org/project/pygenesis-django>`_

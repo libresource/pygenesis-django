@@ -1,7 +1,7 @@
-pygenesis
-=========
+pygenesis_django
+================
 
 .. toctree::
    :maxdepth: 4
 
-   pygenesis
+   pygenesis_django

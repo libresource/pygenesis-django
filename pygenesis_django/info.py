@@ -1,5 +1,5 @@
 """
-Main module
+Info module
 """
 
 
@@ -9,5 +9,5 @@ def info():
     :return: PyGenesis usage info
     """
     result = ('Just use this GitHub repository as template: '
-                          'https://github.com/libresource/pygenesis and enjoy yourself')
+                          'https://github.com/libresource/pygenesis-django and enjoy yourself')
     return result
