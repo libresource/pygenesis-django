@@ -34,7 +34,7 @@ def get_value_from_package_info(line, value, old_value):
     return None
 
 
-PACKAGE_NAME = "pygenesis-django"
+PACKAGE_NAME = "pygenesis_django"
 
 PROJECT_URLS = {
     'Documentation': 'https://pygenesis-django.libresource.info',
