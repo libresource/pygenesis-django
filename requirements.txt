@@ -1,2 +1,2 @@
 wheel
-Django==5.0.6
+Django==5.1
