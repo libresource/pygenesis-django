@@ -163,4 +163,4 @@ You are welcome! To easy start please check:
 - [Governance](GOVERNANCE.md)
 - [Support](SUPPORT.md)
 
-[documentation_path]: https://pygenesis-django.libresource.info
+[documentation_path]: https://libresource.github.io/pygenesis-django/
