@@ -81,9 +81,6 @@ setup(
     author="quillcraftsman",
     author_email="quill@craftsman.lol",
     keywords=["python", "django", "package", "template-repository"],
-    # install_requires=[
-    #     'Django==5.0.6',
-    # ],
     python_requires=">=3",
     classifiers=[
         f'Development Status :: {package_status}',
